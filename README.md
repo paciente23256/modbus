@@ -1,5 +1,7 @@
-# modbus
-Manipulação de Pcap - Modbus TCP/IP com Python
+# Algoritmo ModBus TCP IP
+
+# Manipulação do Protocolo modbus
+Manipulação/Injeção de Pcap Modbus TCP/IP com Python
 
 # Como Instalar
 
