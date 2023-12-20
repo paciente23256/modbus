@@ -1,2 +1,2 @@
-numpy==1.23.5
-scapy==2.4.5
+numpy
+scapy
