@@ -1,8 +1,8 @@
+#!/usr/bin/env python
+#@paciente23256
+
 import os, sys, time, subprocess, runpy
 from subprocess import call
-
-
-
 
 def ip_mac():
         runpy.run_path(path_name='modbus_ip_mac.py')
@@ -62,16 +62,10 @@ if __name__ == '__main__':
 BANNER
 """
 print("""\033[1;34;40m
-
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 |                                                |
-|          IPBEJA - MESI - CIC - M0dBus          |
+\033[37;40m|        -=   inject Pcap Modbus TCP   =-        |
 |                                                |
-\033[37;40m|         -=   inject Pcap Modbus TCP   =-       |
-|                                                |
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|         Alunos: #23258  &   # 23256            |
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
    """)
-
 menu()

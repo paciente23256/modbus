@@ -1,4 +1,5 @@
-#! /usr/bin/env python
+#!/usr/bin/env python
+#@paciente23256
 
 # Bibliotecas
 from scapy.all import *
@@ -30,12 +31,9 @@ print("""\033[1;34;40m
 
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 |                                     |
-|    IPBEJA - MESI - CIC - M0dBus     |
 |                                     |
 \033[37;40m|   -=   inject Pcap Modbus TCP   =-  |
 |                                     |
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|     Alunos: #23258  &   # 23256     |
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
    """)
 # Imprimi o resultado
